@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
+        
+        * {
+            margin: 0;
+            padding: 0;
+            scroll-behavior: smooth;
+        }
+
+        body
+        {
+            font-family: 'Alkatra', cursive;
+            font-size:125%;
+            background-color: rgb(0, 0, 0);
+            color: rgb(255, 255, 255);
+        }
+
+        header {
+            border-bottom: solid rgb(0, 0, 0) 3px;
+            width: 100%;
+        }
+        
+        main {    
+            width: 100%;
+            border-bottom: solid rgb(0, 0, 0) 3px;
+        }
+        section {
+            margin: 5%;
+        }
+
+        .itens{
+            
+            
+            border: 5px solid rgb(0, 0, 0);
+            padding: 6%;
+            border-radius: 20px;
+            background-color: #000000;
+
+        }
+
+        .itens ul h2
+        {
+            font-style: italic;
+
+        }
+
+        
+
+        #img{
+            width:300px;
+            height:200px;
+            box-shadow: 0px 0px 18px 5px rgb(0, 0, 0);
+            border-radius: 20px;
+        }
+
+        .itens ul
+        {
+            list-style: inside url("img/flor.png");
+            margin: 0;
+            padding: 0;
+        }
+
+        .titulo {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #sub-cabeca {
+            text-align: center;
+            margin-top: 0;
+            font-weight: 200;
+
+        }
+        footer {
+            display:flex;
+            justify-content: space-evenly;
+        }
+
+        header nav ul{
+            text-align: center;
+            display: inline-flex;
+          
+        }
+
+        header nav ul li a{
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+
+
+        }   
+        
+        header nav ul li{
+            list-style: none;
+            margin-left: 20px;
+            
+        } 
+        
+        header nav{
+            text-align: center;
+        }
+
+        
+        
+        #vtopo
+        {
+            top: 90%;
+            position: fixed;
+            left: 93%;
+        }
+
+        section.itens {
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .itens li{
+            width: 300px;
+        }
+
+        .container-slider {
+            display: flex;
+            width: 100%;
+            min-height: 100vh;
+            align-items: center;
+            justify-content: center;
+            gap: 1rem;
+          }
+        
+          .container-images {
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 700px;
+          }
+        
+          .slider {
+            opacity: 0;
+            transition: opacity .2s;
+            position: absolute;
+            width: 100%;
+            border-radius: 10px;
+          }
+        
+          .on {
+            opacity: 1;
+          }
+        
+          #prev-button, #next-button {
+            width: 30px;
+            height: 30px;
+            border: none;
+            background-color: transparent;
+            cursor: pointer;
+          }
+        
+          #prev-button img, #next-button img {
+            width: 100%;
+            height: 100%;
+          }
+        
+          #prev-button {
+            transform: rotate(180deg);
+          }
+
+
+        #flor {
+            margin-left: 160px;
+        }
+
+        #local{
+            width: 70vh;
+            
+            border-radius: 20px;
+            margin-top: 200px;
+        }
+
+        #divlocal{
+            display: flex;
+            justify-content: center;
+        }
+
+        #localdesc{
+            color: aliceblue;
+            text-align: center;
+        }
+
+        #cnr ul li{
+            text-decoration: none;
+            text-align:center;
+            color: seashell;
+            list-style: none;
+            margin-top: 100px;
+        }
+
+        #bbandeira{
+            margin-left: 900px;
+        }
+
+        .itens ul li{
+            margin: 0;
+            padding: 0;
+        }
+
+
+        @media(max-width:720px){
+            #vtopo{
+                top: 90%;
+                left: 87%;
+            }
+
+            footer{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            footer div{
+                margin: 30px 0;
+            }
+
+            #local{
+                width: 100%;
+                margin: 0;
+                padding: 0;
+            }
+    
+            #localdesc{
+                color: aliceblue;
+                text-align: center;
+        }
+        }
+            
+        
