@@ -9,7 +9,6 @@
         body
         {
             font-family: 'Alkatra', cursive;
-            font-size:125%;
             background-color: rgb(0, 0, 0);
             color: rgb(255, 255, 255);
         }
@@ -19,44 +18,12 @@
             width: 100%;
         }
         
-        main {    
-            width: 100%;
-            border-bottom: solid rgb(0, 0, 0) 3px;
-        }
-        section {
-            margin: 5%;
-        }
-
-        .itens{
-            
-            
-            border: 5px solid rgb(0, 0, 0);
-            padding: 6%;
-            border-radius: 20px;
-            background-color: #000000;
-
-        }
-
-        .itens ul h2
-        {
-            font-style: italic;
-
-        }
-
-        
 
         #img{
-            width:300px;
-            height:200px;
+            width:40vh;
+            height: 25vh;
             box-shadow: 0px 0px 18px 5px rgb(0, 0, 0);
             border-radius: 20px;
-        }
-
-        .itens ul
-        {
-            list-style: inside url("img/flor.png");
-            margin: 0;
-            padding: 0;
         }
 
         .titulo {
@@ -72,6 +39,7 @@
             font-weight: 200;
 
         }
+
         footer {
             display:flex;
             justify-content: space-evenly;
@@ -107,17 +75,6 @@
             top: 90%;
             position: fixed;
             left: 93%;
-        }
-
-        section.itens {
-            display:flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .itens li{
-            width: 300px;
         }
 
         .container-slider {
@@ -166,14 +123,8 @@
             transform: rotate(180deg);
           }
 
-
-        #flor {
-            margin-left: 160px;
-        }
-
         #local{
             width: 70vh;
-            
             border-radius: 20px;
             margin-top: 200px;
         }
@@ -188,23 +139,30 @@
             text-align: center;
         }
 
-        #cnr ul li{
-            text-decoration: none;
-            text-align:center;
-            color: seashell;
+        .centralizar{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .centralizar ul li{
             list-style: none;
-            margin-top: 100px;
-        }
-
-        #bbandeira{
-            margin-left: 900px;
-        }
-
-        .itens ul li{
             margin: 0;
             padding: 0;
         }
 
+        /* .centralizar ul{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        } */
+
+        .centralizar div{
+            margin-bottom: 7vh;
+        }
 
         @media(max-width:720px){
             #vtopo{
