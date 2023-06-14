@@ -20,10 +20,15 @@
         
 
         #img{
-            width:40vh;
-            height: 25vh;
-            box-shadow: 0px 0px 18px 5px rgb(0, 0, 0);
-            border-radius: 20px;
+            width:50%;
+            transition: all 0.5s;
+            cursor: pointer;
+            
+        }
+
+        #img:hover{
+            -webkit-transform: scale(1.2);
+            transform: scale(1.2);
         }
 
         .titulo {
@@ -37,12 +42,25 @@
             text-align: center;
             margin-top: 0;
             font-weight: 200;
-
+            
         }
 
         footer {
-            display:flex;
-            justify-content: space-evenly;
+            margin-left: 185px;
+        }
+
+        #rodape{
+            display: flex;
+            justify-content: center;
+            padding-top: 40px;
+        }
+
+        #faleconosco{
+            
+        }
+
+        #redes{
+            text-align: center;
         }
 
         header nav ul{
@@ -54,9 +72,17 @@
         header nav ul li a{
             text-decoration: none;
             color: rgb(255, 255, 255);
-
-
-        }   
+            transition: all 0.5s;
+            cursor: pointer;
+            font-size: 2vw;
+        }
+        
+        header nav ul li:hover{
+            -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+            gap: 15px;
+            transition: all 0.5s;
+        }
         
         header nav ul li{
             list-style: none;
@@ -124,7 +150,7 @@
           }
 
         #local{
-            width: 70vh;
+            width: 35vw;
             border-radius: 20px;
             margin-top: 200px;
         }
@@ -137,7 +163,12 @@
         #localdesc{
             color: aliceblue;
             text-align: center;
+            padding-top: 30px;
         }
+
+        #usert{
+            margin-left: 200px;
+         }
 
         .centralizar{
             display: flex;
@@ -181,7 +212,7 @@
             }
 
             #local{
-                width: 100%;
+                width: 80%;
                 margin: 0;
                 padding: 0;
             }
@@ -190,6 +221,27 @@
                 color: aliceblue;
                 text-align: center;
         }
+
+        header nav ul li a{
+            font-size: 4vw;
         }
+
+        #prev-button{
+            position: absolute;
+            top: 80%;
+            left: 35%;
+        }
+
+        #next-button{
+            position: absolute;
+            top: 80%;
+            left: 60%;
+        }
+
+        #img{
+            width: 68%;
+        }
+        }
+
             
         
